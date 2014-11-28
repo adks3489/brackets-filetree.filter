@@ -1,0 +1,11 @@
+{
+    "name": "brackets-filetree.filter",
+    "title": "FileTree Filter",
+    "description": "Filter the file you don't want to see in the FileTree.",
+    "homepage": "https://github.com/adks3489/bracket-filetree-filter",
+    "version": "1.0.0",
+    "author": "James <adks3489@gmail.com> (https://github.com/adks3489/bracket-filetree-filter)",
+    "engines": {
+        "brackets": ">=0.20.0"
+    }
+}

@@ -3,7 +3,10 @@
       <h1 class="dialog-title">FileTree Filter Options</h1>
   </div>
   <div class="modal-body">
-    Extension Filter: <textarea cols="30" rows="4" id="extfilter"></textarea>
+    Mode: <input type="radio" name="filtermode" value="b" checked>BlackList&nbsp;
+    <input type="radio" name="filtermode" value="w">WhiteList<br><br>
+    Filename Extension Blacklist: <textarea cols="30" rows="3" id="extblacklist"></textarea><br>
+    Filename Extension Whitelist: <textarea cols="30" rows="3" id="extwhitelist"></textarea><br>
     Example: .png, .md
   </div>
   <div class="modal-footer">
